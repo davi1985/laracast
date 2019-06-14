@@ -1,0 +1,19 @@
+MySql
+
+Terminal Commands:
+
+Entrar no mysql/xampp:
+    /opt/lampp/bin
+    ./mysql -u root
+
+Sintaxe:
+
+-> show databases: mostras os banco de dados;
+-> create database (name): cria banco de dados;
+-> use (database-name): seleciona para uso um banco;
+-> use (database-name): seleciona para uso um banco;
+-> create table todos (id integer PRIMARY KEY AUTO_INCREMENT, description text NOT NULL, completed boolean NOT NULL);
+-> use (database-name): seleciona para uso um banco;
+-> drop table (name): deleta tabela do banco;
+-> show table: mostra as tabelas de um banco;
+-> describe (databasename);
